@@ -10,7 +10,8 @@ if (isset($_REQUEST['submit'])) {
 $query = "select * from affiliations where name_affiliation like '%$search%'";
 
 // Kết nối sql
-$conn = mysqli_connect("sql302.epizy.com", "epiz_32651517", "H6w2xpE5nwHs4", "epiz_32651517_crow");
+
+$conn = mysqli_connect("remotemysql.com", "oI1hnpf6R7", "7AaGzD53vE", "oI1hnpf6R7");
 
 // Thực thi câu truy vấn
 $sql = mysqli_query($conn, $query);
