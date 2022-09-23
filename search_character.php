@@ -10,7 +10,7 @@ if (isset($_REQUEST['submit'])) {
 $query = "select * from characters where name_character like '%$search%' or nickname_character like '%$search%'";
 
 // Kết nối sql
-$conn = mysqli_connect("localhost", "root", "", "crow");
+$conn = mysqli_connect("remotemysql.com", "oI1hnpf6R7", "7AaGzD53vE", "oI1hnpf6R7");
 
 // Thực thi câu truy vấn
 $sql = mysqli_query($conn, $query);
