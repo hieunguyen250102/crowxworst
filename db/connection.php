@@ -1,3 +1,5 @@
+
+<?php
 function getConnection()
 {
    $dbHost = ("mysql:host=remotemysql.com; dbname=oI1hnpf6R7");
